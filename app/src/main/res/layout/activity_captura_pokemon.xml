@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CapturaPokemonActivity">
+
+    <ImageView
+        android:id="@+id/img_pokemon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/pokebola"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView_pokeNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poke Nome"
+        style="@style/pokeNome"
+        />
+
+    <TextView
+        android:id="@+id/textView_pokeTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poke Tipos"
+        style="@style/pokeDescricao"
+        />
+
+    <TextView
+        android:id="@+id/textView_pokeStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poke Stats"
+        style="@style/pokeDescricao"
+        />
+
+    <TextView
+        android:id="@+id/textView_pokeHabilidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poke  Habilidades"
+        style="@style/pokeDescricao"
+        />
+
+    <TextView
+        android:id="@+id/textView_pokeMovimentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poke Movimentos"
+        style="@style/pokeDescricao"/>
+</LinearLayout>
